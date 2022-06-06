@@ -1,5 +1,8 @@
 # TS-JS Finance Stock Info Library
 
+![npm](https://img.shields.io/npm/v/finance-stock-info)
+![npm bundle size](https://img.shields.io/bundlephobia/min/finance-stock-info)
+
 Module to retrieve current stock information from [Alpha Vantage API](https://rapidapi.com/alphavantage/api/alpha-vantage/).
 
 ## Installation
