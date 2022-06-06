@@ -14,7 +14,7 @@ npm i finance-stock-info
 ## Usage
 
 ```ts
-const { StockInfo } = require('../src/index.js');
+const { StockInfo } = require('finance-stock-info');
 
 // Insert your RapidApi API Key:
 const myApiKey = '<MYAPIKEY>';
