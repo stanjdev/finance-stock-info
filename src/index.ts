@@ -2,7 +2,7 @@
 const axios = require("axios");
 
 class StockInfo {
-  apiKey: string  
+  apiKey: string
   constructor(apiKey: string) {
     this.apiKey = apiKey
   }
@@ -64,4 +64,3 @@ class StockInfo {
 }
 
 module.exports = { StockInfo }
-

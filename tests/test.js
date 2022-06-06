@@ -1,9 +1,10 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 /* eslint-disable no-undef */
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 const { StockInfo } = require('../src/index.js');
+require('dotenv').config();
 
-// Insert your RapidApi API Key:
-const myApiKey = '2419cbdf90msh228551f0af2f561p1a4112jsne6573c6a3d3a';
+// Insert your RapidApi API Key for testing
+const myApiKey = process.env.MYAPIKEY;
 
 const stock = new StockInfo(myApiKey);
 
@@ -26,5 +27,3 @@ test('getChangePercent returns you the percent change string of a given stock ti
 test('getTradeVolume returns you the trade volume string of a given stock ticker', () => {
   stock.getTradeVolume('twtr').then((volume) => expect(typeof volume).toBe('string'));
 });
-
-
