@@ -14,6 +14,8 @@ Module to retrieve current stock information from [Alpha Vantage API](https://ra
 npm i finance-stock-info
 ```
 
+[Link to npm library](https://www.npmjs.com/package/finance-stock-info)
+
 ## Usage
 
 ```ts
