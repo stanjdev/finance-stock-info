@@ -1,6 +1,6 @@
 {
   "name": "finance-stock-info",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Module to retrieve current stock information from Alpha Vantage API",
   "main": "src/index.js",
   "scripts": {
@@ -19,5 +19,9 @@
   "dependencies": {
     "axios": "^0.27.2",
     "dotenv": "^16.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stanjdev/finance-stock-info.git"
   }
 }
